@@ -1,0 +1,59 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root{
+  --dark-red:#ff2332;
+  --primary-color:#ff662d;
+  --dark-bg:#37383c;
+  --light-dark:#3a3b3f;
+  
+}
+
+body{
+  
+  font-family: "Russo One", sans-serif;
+  font-style: normal;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/* ------------------------------------------ */
+body{
+  background-color: black;
+}
+
+.logo{
+  width: 17%;
+}
+
+.fitlinks{
+  color: white;
+  letter-spacing: .1px;
+  font-size: .9rem;
+}
+
+
+
+.fitlinks:hover{
+  color: var(--dark-red);
+}
+
+.fitlinks button{
+  font-size: 1rem;
+}
+
+
+ 
