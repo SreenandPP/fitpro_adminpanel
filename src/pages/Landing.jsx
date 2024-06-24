@@ -21,8 +21,8 @@ function Landing() {
             >
                <div className='d-dlex flex-column justify-content-center align-items-center '>
 
-                  <h2 className='text-white ' style={{ textTransform: 'uppercase', fontWeight: '800' }}>Transform Your <span style={{ color: "var(--dark-red)" }}> Sweat into Strength</span> </h2>
-                  <h2 className='text-white  text-center ' style={{ textTransform: 'uppercase', fontWeight: '800' }}>Your <span style={{ color: "var(--dark-red)" }}> Effort into Results...</span> </h2>
+                  <h2 className='text-white moto' style={{ textTransform: 'uppercase', fontWeight: '800' }}>Transform Your <span style={{ color: "var(--dark-red)" }}> Sweat into Strength</span> </h2>
+                  <h2 className='text-white  text-center  moto' style={{ textTransform: 'uppercase', fontWeight: '800' }}>Your <span style={{ color: "var(--dark-red)" }}> Effort into Results...</span> </h2>
 
                   <div className='d-flexjustify-content-center align-items-center text-center'>
                      <Link to={'/auth'} className='btn btn-danger p-3 mt-3'  style={{ fontWeight: '900' }}>SIGN IN</Link>
